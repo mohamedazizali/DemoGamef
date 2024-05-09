@@ -29,6 +29,7 @@ public class startconvo : MonoBehaviour
             Debug.Log("enter");
         }
     }
+
     public void setActiveQest()
     { Quest = true; }
     private void OnTriggerExit(Collider other)
